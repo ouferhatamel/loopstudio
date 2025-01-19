@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Loopstudios landing page</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo"><img src="./images/logo.svg" alt="Loopstudio Logo"></div>
+      <!-- Hamburger Icon -->
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+      <ul id="nav-menu">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </nav>
+    <div class="headline">
+      <h1 class="headlines">Immersive <br> experiences <br> that deliver</h1>
+    </div>
+  </header>
+  <main>
+    <div class="description">
+      <div class="description__containder">
+        <div class="description__img"><img src="./images/desktop/image-interactive.jpg" alt="interactive"></div>
+        <div class="description__text">
+          <h2 class="headlines">The leader in interactive VR</h2>
+          <p>
+            Founded in 2011, Loopstudios has been producing world-class virtual reality 
+            projects for some of the best companies around the globe. Our award-winning 
+            creations have transformed businesses through digital experiences that bind 
+            to their brand.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="creations">
+      <h2 class="headlines">Our creations</h2>
+      <button>See all</button>
+      <div class="creations__list">
+        <div class="creations__list__element">
+          <div class="overlay"></div>
+          <img 
+            src="./images/desktop/image-deep-earth.jpg"
+            srcset="./images/mobile/image-deep-earth.jpg 560w, ./images/desktop/image-deep-earth.jpg 1200w" 
+            sizes="(max-width: 768px) 100vw, 50vw"
+            alt="Deep Earth">
+          <h3>Deep earth</h3>
+        </div>
+        <div class="creations__list__element">
+          <div class="overlay"></div>
+          <img 
+            src="./images/desktop/image-night-arcade.jpg"
+            srcset="./images/mobile/image-night-arcade.jpg 560w, ./images/desktop/image-night-arcade.jpg 1200w" 
+            sizes="(max-width: 768px) 100vw, 50vw"
+            alt="Deep Earth">
+          <h3>NIGHT ARCADE</h3>
+        </div>
+        <div class="creations__list__element">
+          <div class="overlay"></div>
+          <img 
+            src="./images/desktop/image-soccer-team.jpg"
+            srcset="./images/mobile/image-soccer-team.jpg 560w, ./images/desktop/image-soccer-team.jpg 1200w" 
+            sizes="(max-width: 768px) 100vw, 50vw"
+            alt="Deep Earth">
+          <h3>SOCCER TEAM VR</h3>
+        </div>
+        <div class="creations__list__element">
+          <div class="overlay"></div>
+          <img 
+            src="./images/desktop/image-grid.jpg"
+            srcset="./images/mobile/image-grid.jpg 560w, ./images/desktop/image-grid.jpg 1200w" 
+            sizes="(max-width: 768px) 100vw, 50vw"
+            alt="Deep Earth">
+          <h3>THE GRID</h3>
+        </div>
+        <div class="creations__list__element">
+          <div class="overlay"></div>
+          <img 
+            src="./images/desktop/image-from-above.jpg"
+            srcset="./images/mobile/image-from-above.jpg 560w, ./images/desktop/image-from-above.jpg 1200w" 
+            sizes="(max-width: 768px) 100vw, 50vw"
+            alt="Deep Earth">
+          <h3>FROM UP ABOVE VR</h3>
+        </div>
+        <div class="creations__list__element">
+          <div class="overlay"></div>
+          <img 
+            src="./images/desktop/image-pocket-borealis.jpg"
+            srcset="./images/mobile/image-pocket-borealis.jpg 560w, ./images/desktop/image-pocket-borealis.jpg 1200w" 
+            sizes="(max-width: 768px) 100vw, 50vw"
+            alt="Deep Earth">
+          <h3>POCKET BOREALIS</h3>
+        </div>
+        <div class="creations__list__element">
+          <div class="overlay"></div>
+          <img 
+            src="./images/desktop/image-curiosity.jpg"
+            srcset="./images/mobile/image-curiosity.jpg 560w, ./images/desktop/image-curiosity.jpg 1200w" 
+            sizes="(max-width: 768px) 100vw, 50vw"
+            alt="Deep Earth">
+          <h3>THE CURYOSITY</h3>
+        </div>
+        <div class="creations__list__element">
+          <div class="overlay"></div>
+          <img 
+            src="./images/desktop/image-fisheye.jpg"
+            srcset="./images/mobile/image-fisheye.jpg 560w, ./images/desktop/image-fisheye.jpg 1200w" 
+            sizes="(max-width: 768px) 100vw, 50vw"
+            alt="Deep Earth">
+          <h3>MAKE IT FISHEYE</h3>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="colOne">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="Loopstudios">
+      </div>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+    <div class="colTwo">
+      <div class="socials">
+        <a href="#"><img src="./images/icon-facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="./images/icon-twitter.svg" alt="Twitter"></a>
+        <a href="#"><img src="./images/icon-pinterest.svg" alt="Pinterest"></a>
+        <a href=""><img src="./images/icon-instagram.svg" alt="Instagram"></a>
+      </div>
+      <p>© 2021 Loopstudios. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
